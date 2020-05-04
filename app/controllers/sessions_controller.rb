@@ -6,6 +6,7 @@ class SessionsController
   def create
     if !params[:name]
       redirect_to 'sessions/new'
+    end
   end
   
   def destroy
